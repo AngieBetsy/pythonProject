@@ -1,0 +1,18 @@
+
+
+
+{
+  "locators":
+            [
+              {
+                "solutions": "//li[contains(@id,\"menu-item\")]//a[contains(text(),\"Solutions\")]",
+                "resources": "//li[contains(@id,\"menu-item\")]//a[contains(text(),\"Resources\")]",
+                "pricing": "//li[contains(@id,\"menu-item\")]//a[contains(text(),\"Pricing\")]",
+                "close": "//div[@id=\"form_request_quote\"]//div[@class=\"modal-content\"]//button[@aria-label=\"Close\"][@class=\"close\"]",
+                "about_main": "//div[@class=\"box-nav desktop\"]//div[@class=\"menu-main-navigation-container\"]//ul//li//span[contains(text(),\"Show submenu of About\")]",
+                "about_team": "//li[@id]//ul//li//a[contains(text(),\"Team\")]",
+                "team_member": "//h4[contains(text(),\"John Bennett\")]"
+              }
+            ]
+
+}
